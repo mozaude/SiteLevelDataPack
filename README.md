@@ -3,7 +3,7 @@ STATA code for producing site level targets to input into the Site Target Tool
 
 # Step 1: facility level TX targets
 Inputs & Assumptions needed:
-  1. Site level TX_CURR targets
+  1. Site level TX_CURR targets spreadsheet 
   2. Finer age/sex ratios
   3. % of last year's TX_CURR eligible for VL (From datapack)
   4. Target Viral Suppression rates by age/sex (%)
@@ -21,7 +21,7 @@ Exports:
 # Step 2: facility level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
   1. Site level TX_NEW targets
-  2. District level HTS_POS and HTS_NEG targets for each facility modality 
+  2. District level HTS_POS and HTS_NEG targets for each facility modality, in a spreadsheet with the following columns: 
   
 Functions:
   1. Generates weights for TX_NEW by age/sex for each facility within a district
