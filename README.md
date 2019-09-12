@@ -16,7 +16,7 @@ Functions:
 Exports:
   1. Site level age/sex disaggregated targets for TX_CURR, TX_NEW, TX_PVLS_D and TX_PVLS_N, in a format ready to paste into the Site Target Tool
   
-*** Note: after this step, must run "Cookie" using district level TX_NEW, to generate district level HTS targets for each facility modality, to be used in Step 2***
+*** Note: after this step, must run "Cookie" using district level TX_NEW, to generate district level HTS_POS and HTS_NEG targets for each facility modality, to be used in Step 2***
 
 # Step 2: site level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
