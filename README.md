@@ -1,7 +1,7 @@
 # SiteLevelDataPack
 STATA code for producing site level targets to input into the Site Target Tool
 
-# Step 1: facility level TX targets
+> Step 1: facility level TX targets
 Inputs & Assumptions needed:
   1. Site level TX_CURR targets spreadsheet 
   2. Finer age/sex ratios
@@ -18,7 +18,7 @@ Exports:
   
 *** Note: after this step, must run "Cookie" using district level TX_NEW, to generate district level HTS_POS and HTS_NEG targets for each facility modality, to be used in Step 2***
 
-# Step 2: facility level HTS_POS and HTS_NEG targets for facility modalities 
+> Step 2: facility level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
   1. Site level TX_NEW targets
   2. District level HTS_POS and HTS_NEG targets for each facility modality, in a spreadsheet with the following columns: 
@@ -31,7 +31,7 @@ Functions:
 Exports: 
   1. Site level age/sex disaggregated HTS_POS and HTS_NEG targets for all facility modalities (Index, Emergency, Inpatient, Pediatrics, VCT, OtherPITC), in a format ready to paste into the Site Target Tool
 
-# Step 3: facility level TX_NEW targets for KP
+> Step 3: facility level TX_NEW targets for KP
 Inputs and Assumptions: 
   1. Site level TX_NEW targets
   2. TX_NEW KP district level targets (by KP type) from Site Target Tool, in a spreadsheet with 3 columns:
