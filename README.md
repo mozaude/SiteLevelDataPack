@@ -7,16 +7,18 @@ Inputs & Assumptions needed:
   2. Finer age/sex ratios
   3. % of last year's TX_CURR eligible for VL (From datapack)
   4. Target Viral Suppression rates by age/sex (%)
+  
 Functions:
   1. Applies DSD/TA according to AJUDA/non-AJUDA sites 
   2. Applies finer age/sex ratios
   3. Generates site level age/sex disaggregated targets 
+  
 Exports:
   1. Site level age/sex disaggregated targets for TX_CURR, TX_NEW, TX_PVLS_D and TX_PVLS_N, in a format ready to paste into the Site Target Tool
   
-# Step 2: Run "Cookie" using district level TX_NEW, to generate district level HTS targets for each facility modality
+*** Note: after this step, must run "Cookie" using district level TX_NEW, to generate district level HTS targets for each facility modality, to be used in Step 2***
 
-# Step 3: site level HTS_POS and HTS_NEG targets for facility modalities 
+# Step 2: site level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
   1. Site level TX_NEW targets
 Functions:
