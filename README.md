@@ -21,6 +21,7 @@ Exports:
 # Step 2: site level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
   1. Site level TX_NEW targets
+  2. District level HTS_POS and HTS_NEG targets for each facility modality 
   
 Functions:
   1. Generates weights for TX_NEW by age/sex for each facility within a district
