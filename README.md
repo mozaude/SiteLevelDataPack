@@ -21,10 +21,12 @@ Exports:
 # Step 2: site level HTS_POS and HTS_NEG targets for facility modalities 
 Inputs & Assumptions:
   1. Site level TX_NEW targets
+  
 Functions:
   1. Generates weights for TX_NEW by age/sex for each facility within a district
   2. Applies weights to HTS district level targets to distribute to site level 
   3. Moves all HTS targets for non-AJUDA (TA) sites into OtherPITC modality 
+  
 Exports: 
   1. Site level age/sex disaggregated HTS_POS and HTS_NEG targets for all facility modalities (Index, Emergency, Inpatient, Pediatrics, VCT, OtherPITC), in a format ready to paste into the Site Target Tool
 
