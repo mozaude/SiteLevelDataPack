@@ -3,7 +3,7 @@ STATA code for producing site level targets to input into the Site Target Tool
 
 # Step 1: facility level TX targets
 > Inputs & Assumptions needed:
-- Site level TX_CURR targets spreadsheet 
+- Site level TX_CURR targets spreadsheet
 - Finer age/sex ratios
 - % of last year's TX_CURR eligible for VL (From datapack)
 - Target Viral Suppression rates by age/sex (%)
