@@ -20,7 +20,7 @@ STATA code for producing site level targets to input into the Site Target Tool
 
 # Step 2: facility level HTS_POS and HTS_NEG targets for facility modalities 
 > Inputs & Assumptions:
-- Site level TX_NEW targets
+- Site level TX_NEW targets (obtained through import of the previously created Stata TX targets file)
 - District level HTS_POS and HTS_NEG targets for each facility modality, in a spreadsheet with the following columns: 
   
 > Functions:
